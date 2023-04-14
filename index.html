@@ -2,28 +2,28 @@
 <html>
 <head>
 	<title>Password Generator</title>
-	<link href="style.css" rel="stylesheet">
+	<link href="src/style.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="container">
 		<div class="box">
-			<input type="password" class="input-field" id="password" placeholder="Enter new password">
-			<button class="btn" onclick="pwValidation()">Submit</button>
+			<input type="password" class="input-field" placeholder="Enter new password">
+			<button class="btn">Submit</button>
 		</div>
 		<div class="rules">
 			Password Rules:
 			<br>
-			<span id=rule0>- Must be a minimum of 8 characters</span>
+			- Must be a minimum of 8 characters
 			<br>
-            <span id=rule1>- Must contain at least one lower case letter</span>
+			- Must contain at least one lower case letter
 			<br>
-			<span id=rule2>- Must contain at least one upper case letter</span>
+			- Must contain at least one upper case letter
 			<br>
-			<span id=rule3>- Must contain at least one numeric value</span>
+			- Must contain at least one numeric value
 			<br>
-			<span id=rule4>- Must contain at least one special character</span>
+			- Must contain at least one special character
 		</div>
 	</div>
 </body>
-<script src="script.js"></script>
+<script src="src/script.js"></script>
 </html>
